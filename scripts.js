@@ -77,6 +77,8 @@ function bullet(){
        t1= ctx.isPointInPath(x,y);
        ctx.closePath();
        if(t1 || t){
+           x1[i]+= w;
+           x2[i]+= w;
            score++;
            if(random>0)
            {random--;}
